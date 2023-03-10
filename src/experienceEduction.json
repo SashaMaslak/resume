@@ -1,0 +1,19 @@
+[{
+    "name": "FRIENDS CLUB COURSE (ONLINE)",
+    "startDate": "FEB 2022",
+    "finishDate": "FEB 2023",
+    "technologies": ["English level - Pre-Intermediate"]
+  },
+  {
+    "name": "IT SCHOOL GOIT (ONLINE)",
+    "startDate": "JAN 2022",
+    "finishDate": "SEP 2023",
+    "technologies": ["Fullstack developer"]
+  },
+  {
+    "name": "DNIPROVSKIY STATE TECHNICAL UNIVERSITY (KAMYANSKE)",
+    "startDate": "AUG 2004",
+    "finishDate": "JUN 2010",
+    "technologies": ["Graduated in Software Engineer"]
+  }
+]

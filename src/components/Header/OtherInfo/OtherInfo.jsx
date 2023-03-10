@@ -1,11 +1,7 @@
 import Box from 'components/Box';
 
 const OtherInfo = () => {
-  return (
-    <Box textAlign="center">
-      <p>Other Info</p>
-    </Box>
-  );
+  return <Box textAlign="center"></Box>;
 };
 
 export default OtherInfo;

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const About = styled.div`
-  display: flex;
-  gap: 48px;
+export const TitleExperiences = styled.h3`
+  color: #595a5a;
+  font-size: 28px;
 `;
 
 export const Hero = styled.div`

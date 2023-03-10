@@ -1,25 +1,31 @@
-import React from 'react';
+import Box from 'components/Box';
 import Contacts from './Contacts/Contacts';
 import Introduce from './Introduce/Introduce';
 import OtherInfo from './OtherInfo/OtherInfo';
+import Avatar from './Avatar/Avatar';
+import Summary from './Summary/Summary';
 import contacts from '../../contacts.json';
-import Box from 'components/Box';
+import photo from '../../images/photo.jpg';
+import { About, Hero } from './Headers.styled';
 
 const Header = () => {
   return (
-    <Box
-      bg="#f4d644"
-      display="grid"
-      gridTemplateColumns="auto auto 1fr"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Introduce
-        name="OLEKSANDR MASLAK"
-        profession="JUNIOR FROND-END DEVELOPER"
-      />
-      <Contacts contacts={contacts} />
-      <OtherInfo />
+    <Box position="relative">
+      <About>
+        <Avatar src={photo} alt="photo" width={320} />
+        <Summary
+          title="S U M M A R Y"
+          text="I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Pre-Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people."
+        />
+      </About>
+      <Hero>
+        <Introduce
+          name="OLEKSANDR MASLAK"
+          profession="JUNIOR FROND-END DEVELOPER"
+        />
+        <Contacts contacts={contacts} />
+        <OtherInfo />
+      </Hero>
     </Box>
   );
 };

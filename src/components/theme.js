@@ -1,4 +1,5 @@
 export const theme = {
+  auto: 'auto',
   as: {
     h: 'header',
     m: 'main',
@@ -23,6 +24,7 @@ export const theme = {
   },
   colors: {
     text: '#595a5a',
+    textLight: '#a6a6a6',
     title: '#292d2d',
     white: '#fff',
     bgSection: '#292d2d',

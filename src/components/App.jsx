@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Box
-        maxWidth={1280}
+        maxWidth={1024}
         m={theme.position.a}
         px={theme.space[4]}
         py={theme.space[1]}

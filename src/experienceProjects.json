@@ -1,0 +1,23 @@
+[
+  {
+    "name": "FINAL PROJECT",
+    "teamProject": true,
+    "startDate": null,
+    "finishDate": "SEP 2023",
+    "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
+  },
+  {
+    "name": "FILMOTEKA",
+    "teamProject": true,
+    "startDate": null,
+    "finishDate": "JUL 2022",
+    "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]"]
+  },
+  {
+    "name": "ICE-CREAM",
+    "teamProject": true,
+    "startDate": null,
+    "finishDate": "APR 2022",
+    "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
+  }
+]
