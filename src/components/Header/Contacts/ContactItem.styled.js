@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
-export const LinkItem = styled.li`
+export const LinkItem = styled.a`
+  color: #595a5a;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
     color: #8c52ff;
     font-weight: bold;
+
     svg {
       color: #8c52ff;
     }
@@ -16,9 +21,11 @@ export const StyledItem = styled.li`
 `;
 
 export const IconWrapper = styled.span`
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #292d2d;
-  margin: 2px 4px;
+  margin: 2px 8px 2px 2px;
   border-radius: 4px;
   padding: 0px;
   width: 36px;
@@ -44,4 +51,15 @@ export const ContactText = styled.p`
 
 export const ContactWrapper = styled.p`
   padding: 0px;
+`;
+
+export const ItemLink = styled.a`
+  color: #a6a6a6;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    color: #8c52ff;
+  }
 `;

@@ -4,6 +4,7 @@
     "teamProject": true,
     "startDate": null,
     "finishDate": "SEP 2023",
+    "url": "https://google.com",
     "technologies": ["[HTML5, CSS3, GIT, JS, React, Redux, REST API, AJAX, Webpack]"]
   },
   {
@@ -11,6 +12,7 @@
     "teamProject": true,
     "startDate": null,
     "finishDate": "JUL 2022",
+    "url": "https://denysphv.github.io/project_group_2/",
     "technologies": ["[HTML, SASS, GIT, JS, REST API, AJAX, Parcel]"]
   },
   {
@@ -18,6 +20,7 @@
     "teamProject": true,
     "startDate": null,
     "finishDate": "APR 2022",
+    "url": "https://arkzaslavskyi.github.io/ice-cream-project-1/",
     "technologies": ["[HTML, SASS, GIT, JS, Parcel]"]
   }
 ]

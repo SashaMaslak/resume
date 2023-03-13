@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TitleExperiences = styled.h3`
   color: #595a5a;
-  font-size: 28px;
+  font-size: 20px;
 `;
 
 export const Hero = styled.div`

@@ -15,20 +15,9 @@ const Content = ({
       <TitleExperiences>{titleExProjects}</TitleExperiences>
       <ExperienceProjects experiences={experienceProjects} />
       <TitleExperiences>{titleExWorks}</TitleExperiences>
-      {/* <ExperienceProjects experienceProjects={experienceProjects} /> */}
+      <ExperienceProjects experiences={experienceWork} />
       <TitleExperiences>{titleExEducations}</TitleExperiences>
-      {/* <TitleExperiences>{titleExWorks}</TitleExperiences>
-      <ul>
-        {experienceWork.map((item, idx) => (
-          <li key={idx}></li>
-        ))}
-      </ul>
-      <TitleExperiences>{titleExEducations}</TitleExperiences>
-      <ul>
-        {experienceEduction.map((item, idx) => (
-          <li key={idx}></li>
-        ))}
-      </ul> */}
+      <ExperienceProjects experiences={experienceEduction} />
     </Box>
   );
 };

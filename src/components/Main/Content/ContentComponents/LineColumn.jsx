@@ -1,7 +1,16 @@
-import React from 'react';
+import {
+  LineStyled,
+  CircleStyled,
+  LineColumnStyled,
+} from './LineColumn.styled';
 
 const LineColumn = () => {
-  return <div></div>;
+  return (
+    <LineColumnStyled>
+      <LineStyled />
+      <CircleStyled />
+    </LineColumnStyled>
+  );
 };
 
 export default LineColumn;
