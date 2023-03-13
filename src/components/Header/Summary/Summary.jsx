@@ -1,6 +1,6 @@
 import React from 'react';
-import Box from 'components/Box';
 import {
+  SummaryStyled,
   BlockSummary,
   TitleSummary,
   LineSummary,
@@ -9,13 +9,13 @@ import {
 
 const Summary = ({ text, title }) => {
   return (
-    <Box mt={48}>
+    <SummaryStyled>
       <BlockSummary>
         <TitleSummary>{title}</TitleSummary>
         <LineSummary />
       </BlockSummary>
       <TextSummary>{text}</TextSummary>
-    </Box>
+    </SummaryStyled>
   );
 };
 

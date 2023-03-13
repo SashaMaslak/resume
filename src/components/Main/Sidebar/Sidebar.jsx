@@ -1,5 +1,6 @@
 import Box from 'components/Box';
 import {
+  SideBarStyled,
   TitleSkills,
   TitleItemSkills,
   ListSkills,
@@ -40,7 +41,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
   };
 
   return (
-    <Box width={'320px'} bg={'#292d2d'} p={'32px 32px 32px 64px'}>
+    <SideBarStyled>
       <TitleSkills>{titleSidebar}</TitleSkills>
       {skills.map(({ title, skillsList }, idx) => (
         <Box key={idx} mt={32}>
@@ -52,7 +53,7 @@ const Sidebar = ({ skills, titleSidebar }) => {
           </ListSkills>
         </Box>
       ))}
-    </Box>
+    </SideBarStyled>
   );
 };
 

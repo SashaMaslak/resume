@@ -12,7 +12,8 @@ const Header = () => {
   return (
     <Box position="relative">
       <About>
-        <Avatar src={photo} alt="photo" width={320} />
+        <Avatar src={photo} alt="photo" />
+
         <Summary
           title="S U M M A R Y"
           text="I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Pre-Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people."

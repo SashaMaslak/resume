@@ -1,9 +1,9 @@
 import { Photo } from './Avatar.styled';
 
-const Avatar = ({ src, alt, width }) => {
+const Avatar = ({ src, alt }) => {
   return (
     <>
-      <Photo src={src} alt={alt} width={width} />
+      <Photo src={src} alt={alt} />
     </>
   );
 };

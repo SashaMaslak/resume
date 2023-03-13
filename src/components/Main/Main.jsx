@@ -1,4 +1,4 @@
-import Box from 'components/Box';
+import { MainStyled } from './Main.styled';
 import Sidebar from './Sidebar/Sidebar';
 import Content from './Content/Content';
 import skills from '../../skills.json';
@@ -8,7 +8,7 @@ import experienceEduction from '../../experienceEduction.json';
 
 const Main = () => {
   return (
-    <Box display={'flex'}>
+    <MainStyled>
       <Sidebar skills={skills} titleSidebar="MY SKILLS" />
       <Content
         titleExProjects="PROJECT EXPERIENCE"
@@ -18,7 +18,7 @@ const Main = () => {
         titleExEducations="MY EDUCATION"
         experienceEduction={experienceEduction}
       />
-    </Box>
+    </MainStyled>
   );
 };
 

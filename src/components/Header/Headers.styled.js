@@ -2,7 +2,13 @@ import styled from 'styled-components';
 
 export const About = styled.div`
   display: flex;
-  gap: 48px;
+  gap: 32px;
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+  }
+  @media screen and (min-width: 961px) {
+    gap: 48px;
+  }
 `;
 
 export const Hero = styled.div`

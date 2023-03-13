@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const SideBarStyled = styled.div`
+  background-color: #292d2d;
+  padding: 32px 32px 32px 64px;
+  @media screen and (max-width: 961px) {
+    padding: 32px;
+  }
+`;
+
 export const TitleSkills = styled.h3`
   color: #fff;
   font-size: 24px;
