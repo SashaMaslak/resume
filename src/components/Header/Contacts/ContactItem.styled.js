@@ -39,14 +39,20 @@ export const IconWrapper = styled.span`
 
 export const ContactTitleText = styled.p`
   color: #292d2d;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 120%;
+  @media screen and (min-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 export const ContactText = styled.p`
-  font-size: 16px;
+  font-size: 14px;
   line-height: 110%;
+  @media screen and (min-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 export const ContactWrapper = styled.p`

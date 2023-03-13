@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const IntroduceStyled = styled.div`
-  min-width: 260px;
+  width: 280px;
   padding: 8px;
   text-align: center;
   @media screen and (min-width: 768px) {

@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const SummaryStyled = styled.div`
-  margin-top: 16px;
+  margin-top: 8px;
   align-items: center;
+  @media screen and (min-width: 600px) {
+    margin-top: 16px;
+  }
   @media screen and (min-width: 768px) {
     margin-top: 32px;
   }
@@ -43,7 +46,6 @@ export const LineSummary = styled.p`
 
 export const TextSummary = styled.p`
   padding: 4px;
-  margin-right: 16px;
   font-size: 14px;
   @media screen and (min-width: 768px) {
     margin-right: 32px;
